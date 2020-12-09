@@ -4,103 +4,11 @@
     "elements": [
       {
         "line": 2,
-        "name": "User has already logged in with valid credentials and is navigated to Demo workshop home page.",
-        "description": "",
-        "type": "background",
-        "keyword": "Background"
-      },
-      {
-        "line": 5,
-        "name": "− Successful adding an item to the cart",
-        "description": "Description: This feature will test successful Add to cart functionality",
-        "id": "add-to-cart--action;−-successful-adding-an-item-to-the-cart",
-        "type": "scenario",
-        "keyword": "Scenario",
-        "steps": [
-          {
-            "result": {
-              "duration": 29118563900,
-              "status": "passed"
-            },
-            "line": 7,
-            "name": "User is on home page",
-            "match": {
-              "location": "AddtoCartSteps.user_is_on_home_page()"
-            },
-            "keyword": "Given "
-          },
-          {
-            "result": {
-              "duration": 1740044700,
-              "status": "passed"
-            },
-            "line": 8,
-            "name": "User clicks on books link",
-            "match": {
-              "location": "AddtoCartSteps.user_clicks_on_books_link()"
-            },
-            "keyword": "When "
-          },
-          {
-            "result": {
-              "duration": 3074621100,
-              "status": "passed"
-            },
-            "line": 9,
-            "name": "selects a book to add to cart",
-            "match": {
-              "location": "AddtoCartSteps.selects_a_book_to_add_to_cart()"
-            },
-            "keyword": "And "
-          },
-          {
-            "result": {
-              "duration": 68168100,
-              "status": "passed"
-            },
-            "line": 10,
-            "name": "click on Add to cart",
-            "match": {
-              "location": "AddtoCartSteps.click_on_Add_to_cart()"
-            },
-            "keyword": "And "
-          },
-          {
-            "result": {
-              "duration": 3096306100,
-              "status": "passed"
-            },
-            "line": 11,
-            "name": "item is added to cart successfully",
-            "match": {
-              "location": "AddtoCartSteps.item_is_added_to_cart_successfully()"
-            },
-            "keyword": "Then "
-          }
-        ],
-        "tags": [
-          {
-            "line": 4,
-            "name": "@Add_to_cart"
-          }
-        ]
-      }
-    ],
-    "name": "Add to cart  Action",
-    "description": "",
-    "id": "add-to-cart--action",
-    "keyword": "Feature",
-    "uri": "add_to_cart99.feature"
-  },
-  {
-    "line": 1,
-    "elements": [
-      {
-        "line": 2,
         "name": "User navigates to Demo Web Shop home page and click on Login link",
         "description": "",
         "type": "background",
-        "keyword": "Background"
+        "keyword": "Background",
+        "steps": []
       },
       {
         "line": 5,
@@ -112,7 +20,7 @@
         "steps": [
           {
             "result": {
-              "duration": 35375257000,
+              "duration": 21210353100,
               "status": "passed"
             },
             "line": 7,
@@ -124,7 +32,7 @@
           },
           {
             "result": {
-              "duration": 2189323100,
+              "duration": 2331536300,
               "status": "passed"
             },
             "line": 8,
@@ -136,7 +44,7 @@
           },
           {
             "result": {
-              "duration": 995714600,
+              "duration": 1365476700,
               "status": "passed"
             },
             "line": 9,
@@ -148,7 +56,7 @@
           },
           {
             "result": {
-              "duration": 57206300,
+              "duration": 128248300,
               "status": "passed"
             },
             "line": 10,
@@ -161,7 +69,6 @@
         ],
         "tags": [
           {
-            "line": 4,
             "name": "@Successful_login"
           }
         ]
@@ -171,6 +78,7 @@
     "description": "",
     "id": "login-action",
     "keyword": "Feature",
-    "uri": "login02.feature"
+    "uri": "Feature999/login02.feature",
+    "tags": []
   }
 ]

@@ -1,42 +1,36 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testng-results skipped="0" failed="0" total="2" passed="2">
+<testng-results skipped="0" failed="0" total="1" passed="1">
   <reporter-output>
   </reporter-output>
-  <suite name="Default suite" duration-ms="76262" started-at="2020-12-08T11:09:28Z" finished-at="2020-12-08T11:10:44Z">
+  <suite name="Default suite" duration-ms="26103" started-at="2020-12-09T03:10:53Z" finished-at="2020-12-09T03:11:19Z">
     <groups>
       <group name="cucumber">
-        <method signature="AbstractTestNGCucumberTests.feature(cucumber.api.testng.CucumberFeatureWrapper)[pri:0, instance:runners.TestRunner1@6108b2d7]" name="feature" class="cucumber.api.testng.AbstractTestNGCucumberTests"/>
+        <method signature="AbstractTestNGCucumberTests.runScenario(cucumber.api.testng.PickleEventWrapper, cucumber.api.testng.CucumberFeatureWrapper)[pri:0, instance:runners.TestRunner1@43a25848]" name="runScenario" class="cucumber.api.testng.AbstractTestNGCucumberTests"/>
       </group> <!-- cucumber -->
     </groups>
-    <test name="Default test" duration-ms="76262" started-at="2020-12-08T11:09:28Z" finished-at="2020-12-08T11:10:44Z">
+    <test name="Default test" duration-ms="26103" started-at="2020-12-09T03:10:53Z" finished-at="2020-12-09T03:11:19Z">
       <class name="runners.TestRunner1">
-        <test-method status="PASS" signature="setUpClass()[pri:0, instance:runners.TestRunner1@6108b2d7]" name="setUpClass" is-config="true" duration-ms="405" started-at="2020-12-08T16:39:28Z" finished-at="2020-12-08T16:39:28Z">
+        <test-method status="PASS" signature="setUpClass()[pri:0, instance:runners.TestRunner1@43a25848]" name="setUpClass" is-config="true" duration-ms="462" started-at="2020-12-09T08:40:53Z" finished-at="2020-12-09T08:40:53Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setUpClass -->
-        <test-method status="PASS" signature="feature(cucumber.api.testng.CucumberFeatureWrapper)[pri:0, instance:runners.TestRunner1@6108b2d7]" name="feature" duration-ms="37117" started-at="2020-12-08T16:39:28Z" description="Runs Cucumber Feature" data-provider="features" finished-at="2020-12-08T16:40:05Z">
+        <test-method status="PASS" signature="runScenario(cucumber.api.testng.PickleEventWrapper, cucumber.api.testng.CucumberFeatureWrapper)[pri:0, instance:runners.TestRunner1@43a25848]" name="runScenario" duration-ms="25376" started-at="2020-12-09T08:40:54Z" description="Runs Cucumber Scenarios" data-provider="scenarios" finished-at="2020-12-09T08:41:19Z">
           <params>
             <param index="0">
               <value>
-                <![CDATA[Add to cart  Action]]>
+                <![CDATA["? Successful login with valid login credentials"]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA["Login Action"]]>
               </value>
             </param>
           </params>
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- feature -->
-        <test-method status="PASS" signature="feature(cucumber.api.testng.CucumberFeatureWrapper)[pri:0, instance:runners.TestRunner1@6108b2d7]" name="feature" duration-ms="38621" started-at="2020-12-08T16:40:05Z" description="Runs Cucumber Feature" data-provider="features" finished-at="2020-12-08T16:40:44Z">
-          <params>
-            <param index="0">
-              <value>
-                <![CDATA[Login Action]]>
-              </value>
-            </param>
-          </params>
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- feature -->
-        <test-method status="PASS" signature="tearDownClass()[pri:0, instance:runners.TestRunner1@6108b2d7]" name="tearDownClass" is-config="true" duration-ms="16" started-at="2020-12-08T16:40:44Z" finished-at="2020-12-08T16:40:44Z">
+        </test-method> <!-- runScenario -->
+        <test-method status="PASS" signature="tearDownClass()[pri:0, instance:runners.TestRunner1@43a25848]" name="tearDownClass" is-config="true" duration-ms="120" started-at="2020-12-09T08:41:19Z" finished-at="2020-12-09T08:41:19Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- tearDownClass -->
